@@ -4,10 +4,6 @@ public class Item {
     private int id;
     private String name;
 
-    public int getId() {
-        return id;
-    }
-
     public void setId(int id) {
         this.id = id;
     }
@@ -25,11 +21,15 @@ public class Item {
         this.name = name;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public Item() {
 
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
     }
 }
